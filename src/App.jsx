@@ -6,7 +6,7 @@ import Home from "../src/assets/pages/Home";
 import ReactVersion from "../src/assets/pages/ReactVersion";
 import Tickets from "../src/assets/pages/Tickets";
 import About from "../src/assets/pages/About";
-import CVersion from "./assets/pages/Cversion";
+import CVersion from "../src/assets/pages/Cversion";
 function App() {
   const [tickets, setTickets] = useState([]);
   return (
