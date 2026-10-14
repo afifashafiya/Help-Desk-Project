@@ -1,0 +1,18 @@
+
+.navbar .secondary-menu {
+  color: #6c757d;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.navbar .active-menu {
+  color: #212529;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+
+.navbar .nav-link:hover {
+  color: #212529;
+}
