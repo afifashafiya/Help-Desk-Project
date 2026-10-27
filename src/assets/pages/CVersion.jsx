@@ -37,6 +37,17 @@ function CVersion({ tickets, setTickets }) {
           {/* Left Side */}         
           <CLeft choice={choice} setChoice={setChoice} />
           {/* Right Side - Ticket Form */}
-          <CRight choice={choice}tickets={tickets} form={form}setForm={setForm}search={search}setSearch={setSearch}addTicket={addTicket}updateStatus={updateStatus}deleteTicket={deleteTicket}filteredTickets={filteredTickets}/>
+          <CRight
+  choice={choice}
+  tickets={tickets}
+  form={form}
+  setForm={setForm}
+  search={search}
+  setSearch={setSearch}
+  addTicket={addTicket}
+  updateStatus={updateStatus}
+  deleteTicket={deleteTicket}
+  filteredTickets={filteredTickets}
+/>
   </div></div></section>
   )}export default CVersion;

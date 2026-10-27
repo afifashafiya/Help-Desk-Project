@@ -1,4 +1,15 @@
-function CRight(choice,tickets,form,setForm,search,setSearch,addTicket,updateStatus,deleteTicket,filteredTickets) {
+function CRight({
+  choice,
+  tickets,
+  form,
+  setForm,
+  search,
+  setSearch,
+  addTicket,
+  updateStatus,
+  deleteTicket,
+  filteredTickets,
+}) {
     return (
         <div className="col-lg-8">
             <div className="card   shadow-sm p-4">
